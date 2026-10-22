@@ -1,0 +1,11 @@
+node_modules
+.env
+.env.local
+dist
+build
+coverage
+*.log
+uploads
+temp-exports
+.DS_Store
+Thumbs.db

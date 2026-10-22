@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #7C3AED;
+    --color-primary-hover: #6D28D9;
+    --color-app-bg: #F8FAFC;
+    --color-main-text: #1E293B;
+    --color-secondary-text: #64748B;
+    --color-border: #E2E8F0;
+    --color-success: #16A34A;
+    --color-warning: #D97706;
+    --color-error: #DC2626;
+    --color-luxury: #B8860B;
+    --color-white: #FFFFFF;
+  }
+
+  * {
+    border-color: #E2E8F0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #1E293B;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6, nav, button, label, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  p, span, div, input, textarea, select, .font-body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* Custom scrollbars for light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
